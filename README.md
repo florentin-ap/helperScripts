@@ -8,3 +8,6 @@ helper scripts for various adhoc tasks in tpay backend
   1) Copy the script
   2) Change `requestBodyData` and `apiSecretKey` accordingly. You can get them from [parameter store](https://ap-southeast-1.console.aws.amazon.com/systems-manager/parameters/tvlk-secret/tpaycmw/pay/client-secret-prod/KpSi9x68HgG0BRr9qQwtyToUoXZQDTHlx/description?region=ap-southeast-1&tab=Table#list_parameter_filters=Name:Contains:KpSi9x68HgG0BRr9qQwtyToUoXZQDTHlx)
   3) Run `python SignatureGenerator.py` to get the signature
+
+If all goes well, you should get this result <br/>
+![image](https://user-images.githubusercontent.com/63224967/173758459-ab2c937d-c9c8-4d46-9447-e26299c4f8a8.png)
